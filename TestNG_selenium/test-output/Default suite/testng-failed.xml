@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testng_package.Ebay_Assignment">
+        <methods>
+          <include name="postConditionChangeLanguage"/>
+          <include name="postConditionChangeName"/>
+          <include name="postConditionCategories"/>
+          <include name="postConditionAllCategories"/>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+          <include name="postConditionDeleteCart"/>
+          <include name="postConditionChangeAddress"/>
+          <include name="postConditionMultipleSearch"/>
+          <include name="postConditionLogin"/>
+          <include name="postConditionRightClickDescription"/>
+          <include name="changeAddressTest"/>
+          <include name="postConditionAddToCart"/>
+        </methods>
+      </class> <!-- testng_package.Ebay_Assignment -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

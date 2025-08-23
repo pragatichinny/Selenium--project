@@ -1,0 +1,11 @@
+ 
+<suite name="DummyLoginPageSuite" parallel="classes" thread-count="1">
+    <test name="LoginTest">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="admin123"/>
+        <classes>
+            <class name="testNG_practice.DummyLoginPage"/>
+        </classes>
+    </test>
+</suite>
+ 
